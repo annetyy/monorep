@@ -1,3 +1,5 @@
-import { Route, Router, Switch } from "./routing.native";
+const context = "native";
+
+const { Route, Router, Switch } = require(`./routing.${context}`);
 
 export { Route, Router, Switch };
