@@ -23,19 +23,23 @@ yarn start
 #### term 1
 
 cd packages/common
+
 yarn watch
 
 #### term 2
 
 cd packages/app
+
 yarn start
 
 #### term 3
 
 cd packages/app
+
 wml start
 
 #### term 4
 
 cd packages/app
+
 react-native run-android
