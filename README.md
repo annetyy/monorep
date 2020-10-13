@@ -4,41 +4,41 @@ yarn install
 
 # Run
 
-## Primeiro rodar o watch
+## WEB
+
+### terminal 1 - watch
 
 cd packages/common
 
 yarn watch
 
-## Depois rodar o APP ou WEB
-
-### WEB
+### terminal 2 - run
 
 cd packages/web
 
 yarn start
 
-### APP
+## APP
 
-#### term 1
+### terminal 1 - watch common creates dist on common
 
 cd packages/common
 
 yarn watch
 
-#### term 2
-
-cd packages/app
-
-yarn start
-
-#### term 3
+### terminal 2 - watch from common to react native
 
 cd packages/app
 
 wml start
 
-#### term 4
+#### terminal 3 - prepare app
+
+cd packages/app
+
+yarn start
+
+#### terminal 4 - start app
 
 cd packages/app
 
