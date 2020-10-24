@@ -12,5 +12,8 @@
   "license": "ISC",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "react-native": "*"
+  }
 }
